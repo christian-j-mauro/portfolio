@@ -45,7 +45,8 @@ const Portfolio: React.FC = () => {
           </p>
           <a 
           className={styles.link}
-          href='https://snack.expo.dev/@christianmauro/067f17'>Try the demo on Snack!</a>
+          href='https://snack.expo.dev/@christianmauro/067f17'>Try the demo on Snack!
+          </a>
         </div>
 
         <div className={styles.project}>
@@ -66,6 +67,10 @@ const Portfolio: React.FC = () => {
           <p className={styles.projectDescription}>
             The source code for this website written in TypeScript with React.js.
           </p>
+          <a 
+          className={styles.link}
+          href='https://github.com/christian-j-mauro/portfolio'>See the code here.
+          </a>
         </div>
 
         <div className={styles.project}>
