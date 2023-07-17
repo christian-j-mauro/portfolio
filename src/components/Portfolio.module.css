@@ -1,0 +1,121 @@
+.portfolio {
+  background-color: #262a2b;
+  color: #ffffff;
+  height: auto;
+  padding: 20px;
+}
+
+.header {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: seagreen;
+}
+
+.nameSection {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+}
+
+.name {
+  font-size: 24px;
+  background-color: seagreen;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  font-size:xx-large;
+  background-color: seagreen;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.project {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.projectTitle {
+  color: seagreen;
+}
+
+.projectDescription {
+  color: #ffffff;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.link {
+  color: seagreen;
+}
+
+.image {
+  width: 65%;
+  height: auto;
+  border-radius: 10%;
+}
+
+.lightMode .projectDescription {
+  color: #333333;
+}
+
+.toggleButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: seagreen;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.lightMode {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.github {
+  font-size: 30px;
+  background-color: black;
+  padding: .2%;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.codeberg {
+  font-size: 30px;
+  background-color: #2185d0;
+  padding: .2%;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.kaggle {
+  font-size: 30px;
+  padding: .2%;
+  color: #20beff;
+}
+
+.linkedin {
+  font-size: 30px;
+  padding: .2%;
+  color: #0a66c2;
+}
